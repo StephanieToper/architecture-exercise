@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "elevation": {
+      "type": "number"
+    },
+    "temperature": {
+      "type": "number"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "longitude": {
+          "type": "number"
+        },
+        "latitude": {
+          "type": "number"
+        }
+      }
+    },
+    "humidity": {
+      "type": "number"
+    },
+    "charge": {
+      "type": "number"
+    },
+    "speed": {
+      "type": "number"
+    },
+    "isdocked": {
+      "type": "boolean"
+    },
+    "weight": {
+      "type": "number"
+    },
+    "acceleration": {
+      "type": "number"
+    },
+    "magneticfield": {
+      "type": "number"
+    },
+    "id": {
+      "type": "integer"
+    }
+  },
+  "title": "hoverboard"
+}

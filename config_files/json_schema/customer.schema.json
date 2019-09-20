@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "customer_name": {
+      "type": "object",
+      "properties": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        }
+      }
+    },
+    "customer_location": {
+      "type": "object",
+      "properties": {
+        "longitude": {
+          "type": "number"
+        },
+        "latitude": {
+          "type": "number"
+        }
+      }
+    },
+    "id": {
+      "type": "integer"
+    },
+    "customer_email": {
+      "type": "string",
+      "format": "email"
+    }
+  },
+  "title": "customer",
+  "description": "customer details\n"
+}

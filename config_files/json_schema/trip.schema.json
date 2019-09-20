@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "trip_duration": {
+      "type": "number"
+    },
+    "hoverboard_id": {
+      "type": "integer"
+    },
+    "customer_id": {
+      "type": "integer"
+    },
+    "start_location": {
+      "type": "object",
+      "properties": {
+        "longitude": {
+          "type": "number"
+        },
+        "latitude": {
+          "type": "number"
+        }
+      }
+    },
+    "end_location": {
+      "type": "object",
+      "properties": {
+        "longitude": {
+          "type": "number"
+        },
+        "latitude": {
+          "type": "number"
+        }
+      }
+    },
+    "start_time_and_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "end_time_and_date": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "title": "trip"
+}
